@@ -7,7 +7,6 @@ This repository contains the code for a landing page for a fictional burger comp
 ### Demo Screeshots
 
 ![Wow Burger Demo](./ReadMe/Wow_Burger1.png "Home Page")
-![Wow Burger Demo](./ReadMe/Wow_Burger2.png "Shop Page")
 ![Wow Burger Demo](./ReadMe/Wow_Burger4.png "About Page")
 
 The page includes the following features:
