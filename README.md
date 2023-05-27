@@ -12,10 +12,10 @@ This repository contains the code for a landing page for a fictional burger comp
 
 The page includes the following features:
 
-A hero section with a large image of a burger
-A menu section with a list of all the burgers available
-A contact section with information on how to get in touch with the company
-The page is still under development, but it is already a great example of how to use React, TypeScript, and Vite to build a beautiful and responsive landing page.
+- A hero section with a large image of a burger
+- A menu section with a list of all the burgers available
+- A contact section with information on how to get in touch with the company
+- The page is still under development, but it is already a great example of how to use React, TypeScript, and Vite to build a beautiful and responsive landing page.
 
 # Author
 
