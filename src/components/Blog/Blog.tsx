@@ -1,8 +1,12 @@
 import { IonIcon } from "@ionic/react";
+import {
+  IconCalendarEvent,
+  IconLego,
+  IconArrowNarrowRight,
+} from "@tabler/icons-react";
 import blog1 from "../../assets/images/blog-1.jpg";
 import blog2 from "../../assets/images/blog-2.jpg";
 import blog3 from "../../assets/images/blog-3.jpg";
-import blog4 from "../../assets/images/blog-4.jpg";
 
 const Blog = () => {
   return (
@@ -39,23 +43,19 @@ const Blog = () => {
                 <div className="card-content">
                   <div className="card-meta-wrapper">
                     <a href="#" className="card-meta-link">
-                      <IonIcon
-                        name="calendar-outline"
-                        size="large"
-                        color="blue"
-                      ></IonIcon>
+                      <IconCalendarEvent
+                        size={25}
+                        strokeWidth={1}
+                        color={"orange"}
+                      />
 
-                      <time className="meta-info">Jan 01 2023</time>
+                      <time className="meta-info">Jan 20 2023</time>
                     </a>
 
                     <a href="#" className="card-meta-link">
-                      <IonIcon
-                        name="person-outline"
-                        size="large"
-                        color="blue"
-                      ></IonIcon>
+                      <IconLego size={25} strokeWidth={1} color={"orange"} />
 
-                      <p className="meta-info">Jonathan Smith</p>
+                      <p className="meta-info">Mekuanint Legese</p>
                     </a>
                   </div>
 
@@ -72,11 +72,11 @@ const Blog = () => {
 
                   <a href="#" className="btn-link">
                     <span>Read More</span>
-                    <IonIcon
-                      name="arrow-forward"
-                      size="large"
-                      color="blue"
-                    ></IonIcon>
+                    <IconArrowNarrowRight
+                      size={25}
+                      strokeWidth={1}
+                      color={"#000000"}
+                    />
                   </a>
                 </div>
               </div>
@@ -100,21 +100,17 @@ const Blog = () => {
                 <div className="card-content">
                   <div className="card-meta-wrapper">
                     <a href="#" className="card-meta-link">
-                      <IonIcon
-                        name="calendar-outline"
-                        size="large"
-                        color="blue"
-                      ></IonIcon>
+                      <IconCalendarEvent
+                        size={25}
+                        strokeWidth={1}
+                        color={"orange"}
+                      />
                       <time className="meta-info">Jan 04 2023</time>
                     </a>
 
                     <a href="#" className="card-meta-link">
-                      <IonIcon
-                        name="person-outline"
-                        size="large"
-                        color="blue"
-                      ></IonIcon>
-                      <p className="meta-info">Jonathan Smith</p>
+                      <IconLego size={25} strokeWidth={1} color={"orange"} />
+                      <p className="meta-info">Mekuanint Legese</p>
                     </a>
                   </div>
 
@@ -131,11 +127,11 @@ const Blog = () => {
 
                   <a href="#" className="btn-link">
                     <span>Read More</span>
-                    <IonIcon
-                      name="arrow-forward"
-                      size="large"
-                      color="blue"
-                    ></IonIcon>
+                    <IconArrowNarrowRight
+                      size={25}
+                      strokeWidth={1}
+                      color={"#000000"}
+                    />
                   </a>
                 </div>
               </div>
@@ -159,22 +155,18 @@ const Blog = () => {
                 <div className="card-content">
                   <div className="card-meta-wrapper">
                     <a href="#" className="card-meta-link">
-                      <IonIcon
-                        name="calendar-outline"
-                        size="large"
-                        color="blue"
-                      ></IonIcon>
+                      <IconCalendarEvent
+                        size={25}
+                        strokeWidth={1}
+                        color={"orange"}
+                      />
 
-                      <time className="meta-info">Jan 04 2023</time>
+                      <time className="meta-info">Jan 10 2023</time>
                     </a>
 
                     <a href="#" className="card-meta-link">
-                      <IonIcon
-                        name="calendar-outline"
-                        size="large"
-                        color="blue"
-                      ></IonIcon>
-                      <p className="meta-info">Jonathan Smith</p>
+                      <IconLego size={25} strokeWidth={1} color={"orange"} />
+                      <p className="meta-info">Mekuanint Legese</p>
                     </a>
                   </div>
 
@@ -191,11 +183,11 @@ const Blog = () => {
 
                   <a href="#" className="btn-link">
                     <span>Read More</span>
-                    <IonIcon
-                      name="arrow-forward"
-                      size="large"
-                      color="blue"
-                    ></IonIcon>
+                    <IconArrowNarrowRight
+                      size={25}
+                      strokeWidth={1}
+                      color={"#000000"}
+                    />
                   </a>
                 </div>
               </div>
