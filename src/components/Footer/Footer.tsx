@@ -1,4 +1,9 @@
-import { IonIcon } from "@ionic/react";
+import {
+  IconBrandFacebook,
+  IconBrandInstagram,
+  IconBrandPinterest,
+  IconBrandTwitter,
+} from "@tabler/icons-react";
 
 const Footer = () => {
   return (
@@ -19,41 +24,41 @@ const Footer = () => {
               <ul className="social-list">
                 <li>
                   <a href="#" className="social-link">
-                    <IonIcon
-                      name="logo-facebook"
-                      size="large"
-                      color="red"
-                    ></IonIcon>
+                    <IconBrandFacebook
+                      size={38}
+                      strokeWidth={1}
+                      color={"white"}
+                    />
                   </a>
                 </li>
 
                 <li>
                   <a href="#" className="social-link">
-                    <IonIcon
-                      name="logo-twitter"
-                      size="large"
-                      color="blue"
-                    ></IonIcon>
+                    <IconBrandInstagram
+                      size={38}
+                      strokeWidth={1}
+                      color={"white"}
+                    />
                   </a>
                 </li>
 
                 <li>
                   <a href="#" className="social-link">
-                    <IonIcon
-                      name="logo-instagram"
-                      size="large"
-                      color="purple"
-                    ></IonIcon>
+                    <IconBrandPinterest
+                      size={38}
+                      strokeWidth={1}
+                      color={"white"}
+                    />
                   </a>
                 </li>
 
                 <li>
                   <a href="#" className="social-link">
-                    <IonIcon
-                      name="logo-pinterest"
-                      size="large"
-                      color="green"
-                    ></IonIcon>
+                    <IconBrandTwitter
+                      size={38}
+                      strokeWidth={1}
+                      color={"white"}
+                    />
                   </a>
                 </li>
               </ul>

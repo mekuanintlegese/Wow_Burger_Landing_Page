@@ -75,7 +75,7 @@ const Blog = () => {
                     <IconArrowNarrowRight
                       size={25}
                       strokeWidth={1}
-                      color={"#000000"}
+                      color={"yellow"}
                     />
                   </a>
                 </div>
@@ -130,7 +130,7 @@ const Blog = () => {
                     <IconArrowNarrowRight
                       size={25}
                       strokeWidth={1}
-                      color={"#000000"}
+                      color={"yellow"}
                     />
                   </a>
                 </div>
@@ -186,7 +186,7 @@ const Blog = () => {
                     <IconArrowNarrowRight
                       size={25}
                       strokeWidth={1}
-                      color={"#000000"}
+                      color={"yellow"}
                     />
                   </a>
                 </div>
