@@ -1,4 +1,3 @@
-import { IonIcon } from "@ionic/react";
 import {
   IconCalendarEvent,
   IconLego,

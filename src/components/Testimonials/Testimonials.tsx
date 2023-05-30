@@ -28,14 +28,14 @@ const Testimonials = () => {
                       width="80"
                       height="80"
                       loading="lazy"
-                      alt="Robert William"
+                      alt="Mekuanint Legese"
                     />
                   </figure>
 
                   <div>
-                    <h3 className="h4 testi-name">Robert William</h3>
+                    <h3 className="h4 testi-name">Mekuanint Legese</h3>
 
-                    <p className="testi-title">CEO Kingfisher</p>
+                    <p className="testi-title">Customer</p>
                   </div>
                 </div>
 
@@ -59,14 +59,14 @@ const Testimonials = () => {
                       width="80"
                       height="80"
                       loading="lazy"
-                      alt="Thomas Josef"
+                      alt="Mekuanint Legese"
                     />
                   </figure>
 
                   <div>
-                    <h3 className="h4 testi-name">Thomas Josef</h3>
+                    <h3 className="h4 testi-name">Mekuanint Legese</h3>
 
-                    <p className="testi-title">CEO Getforce</p>
+                    <p className="testi-title">Customer</p>
                   </div>
                 </div>
 
@@ -90,14 +90,14 @@ const Testimonials = () => {
                       width="80"
                       height="80"
                       loading="lazy"
-                      alt="Charles Richard"
+                      alt="Mekuanint Legese"
                     />
                   </figure>
 
                   <div>
-                    <h3 className="h4 testi-name">Charles Richard</h3>
+                    <h3 className="h4 testi-name">Mekuanint Legese</h3>
 
-                    <p className="testi-title">CEO Angela</p>
+                    <p className="testi-title">Customer</p>
                   </div>
                 </div>
 
