@@ -1,4 +1,8 @@
 import { IonIcon } from "@ionic/react";
+import blog1 from "../../assets/images/blog-1.jpg";
+import blog2 from "../../assets/images/blog-2.jpg";
+import blog3 from "../../assets/images/blog-3.jpg";
+import blog4 from "../../assets/images/blog-4.jpg";
 
 const Blog = () => {
   return (
@@ -21,7 +25,7 @@ const Blog = () => {
               <div className="blog-card">
                 <div className="card-banner">
                   <img
-                    src="./assets/images/blog-1.jpg"
+                    src={blog1}
                     width="600"
                     height="390"
                     loading="lazy"
@@ -82,7 +86,7 @@ const Blog = () => {
               <div className="blog-card">
                 <div className="card-banner">
                   <img
-                    src="./assets/images/blog-2.jpg"
+                    src={blog2}
                     width="600"
                     height="390"
                     loading="lazy"
@@ -96,16 +100,20 @@ const Blog = () => {
                 <div className="card-content">
                   <div className="card-meta-wrapper">
                     <a href="#" className="card-meta-link">
-                      <ion-icon name="calendar-outline"></ion-icon>
-
-                      <time className="meta-info" datetime="2022-01-01">
-                        Jan 01 2022
-                      </time>
+                      <IonIcon
+                        name="calendar-outline"
+                        size="large"
+                        color="blue"
+                      ></IonIcon>
+                      <time className="meta-info">Jan 04 2023</time>
                     </a>
 
                     <a href="#" className="card-meta-link">
-                      <ion-icon name="person-outline"></ion-icon>
-
+                      <IonIcon
+                        name="person-outline"
+                        size="large"
+                        color="blue"
+                      ></IonIcon>
                       <p className="meta-info">Jonathan Smith</p>
                     </a>
                   </div>
@@ -123,11 +131,11 @@ const Blog = () => {
 
                   <a href="#" className="btn-link">
                     <span>Read More</span>
-
-                    <ion-icon
+                    <IonIcon
                       name="arrow-forward"
-                      aria-hidden="true"
-                    ></ion-icon>
+                      size="large"
+                      color="blue"
+                    ></IonIcon>
                   </a>
                 </div>
               </div>
@@ -137,7 +145,7 @@ const Blog = () => {
               <div className="blog-card">
                 <div className="card-banner">
                   <img
-                    src="./assets/images/blog-3.jpg"
+                    src={blog3}
                     width="600"
                     height="390"
                     loading="lazy"
@@ -151,16 +159,21 @@ const Blog = () => {
                 <div className="card-content">
                   <div className="card-meta-wrapper">
                     <a href="#" className="card-meta-link">
-                      <ion-icon name="calendar-outline"></ion-icon>
+                      <IonIcon
+                        name="calendar-outline"
+                        size="large"
+                        color="blue"
+                      ></IonIcon>
 
-                      <time className="meta-info" datetime="2022-01-01">
-                        Jan 01 2022
-                      </time>
+                      <time className="meta-info">Jan 04 2023</time>
                     </a>
 
                     <a href="#" className="card-meta-link">
-                      <ion-icon name="person-outline"></ion-icon>
-
+                      <IonIcon
+                        name="calendar-outline"
+                        size="large"
+                        color="blue"
+                      ></IonIcon>
                       <p className="meta-info">Jonathan Smith</p>
                     </a>
                   </div>
@@ -178,11 +191,11 @@ const Blog = () => {
 
                   <a href="#" className="btn-link">
                     <span>Read More</span>
-
-                    <ion-icon
+                    <IonIcon
                       name="arrow-forward"
-                      aria-hidden="true"
-                    ></ion-icon>
+                      size="large"
+                      color="blue"
+                    ></IonIcon>
                   </a>
                 </div>
               </div>
